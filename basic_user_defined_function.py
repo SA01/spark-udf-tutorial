@@ -36,5 +36,3 @@ if __name__ == '__main__':
     grpuped_df = after_udf.groupby("random").agg(count(lit(1)))
     grpuped_df.show(truncate=False)
     grpuped_df.show(truncate=False)
-
-    time.sleep(10000)

@@ -116,5 +116,3 @@ if __name__ == '__main__':
 
     print(f"Took {time.time() - start} seconds.")
 
-    time.sleep(10000)
-
